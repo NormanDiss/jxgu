@@ -1,2 +1,3 @@
 # cppfund
-cppppppp
+for USACO and C++ Stuff that Im Doing
+
