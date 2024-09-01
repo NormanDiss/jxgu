@@ -10,7 +10,7 @@ int main() {
 
     double d1 = 2.2;
     std::cout << d1 << std::endl;
-    int i5 = d1;
+    int i5 = static_cast<int>(d1);
     std::cout << i5 << std::endl;
 
     char c1 = 'a';
