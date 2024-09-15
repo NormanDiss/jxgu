@@ -22,26 +22,17 @@ int main()
     {
         if (str.size() > 0)
         {
-            inputs.push_back(str);
+            inputs.push_back(str); // Add amount of people
         }
     }
 
-    // for (int i = 0; i < inputs.size(); i++) {
-    //     cout << inputs.at(i) << endl;
-    // }
-
-    // -- Now at this point in the code inputs is a vector of all the people!!! --
     string inputsAT = inputs.at(0);
     int peopleNum = stoi(inputsAT);
     vector<string> namesAtIndex;
     for (int i = 1; i < peopleNum + 1; i++)
     {
-        namesAtIndex.push_back(inputs.at(i));
+        namesAtIndex.push_back(inputs.at(i)); // Add more names
     }
-
-    // for (int i = 0; i < namesAtIndex.size(); i++) {
-    //     cout << namesAtIndex.at(i) << endl;
-    // }
 
     int people[peopleNum]; // array to track how much money people have.
     for (int i = 0; i < peopleNum; i++)
@@ -57,7 +48,7 @@ int main()
         // Check Person
         string numberRAW = inputs.at(position + 2);
 
-    istringstream ss(numberRAW);
+        istringstream ss(numberRAW);
         vector<int> splitRaw;
         do
         {
@@ -67,8 +58,8 @@ int main()
         } while (ss);
         // Now there is a vector, splitRaw, which has [money, people]
 
-        vector<string> currentslice;
-        // currentslice = copy(inputs.begin() + position);
+        int moneyToDivide = splitRaw.at(0) / splitRaw.at(1);
+        int moneyToReturn = splitRaw.at(0) % splitRaw.at(1);
     }
 
     outputFile << "NOTSETYET" << endl;
