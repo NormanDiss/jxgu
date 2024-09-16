@@ -40,13 +40,12 @@ int main()
         people[i] = 0;
     }
 
-    // Open Loop to go through each person.
     int wrapCount = 0;
-    int position = peopleNum;
+    int position = peopleNum + 1; // Go through each person!
     while (wrapCount < peopleNum)
     {
         // Check Person
-        string numberRAW = inputs.at(position + 2);
+        string numberRAW = inputs.at(position + 1);
 
         istringstream ss(numberRAW);
         vector<int> splitRaw;
@@ -55,11 +54,14 @@ int main()
             string num;
             ss >> num;
             splitRaw.push_back(stoi(num));
-        } while (ss);
-        // Now there is a vector, splitRaw, which has [money, people]
+        } while (ss); // Now there is a vector, splitRaw, which has [money, people]
 
         int moneyToDivide = splitRaw.at(0) / splitRaw.at(1);
-        int moneyToReturn = splitRaw.at(0) % splitRaw.at(1);
+        int moneyToReturn = splitRaw.at(0) % splitRaw.at(1); // Calculating money to give and return
+
+        vector<string>::iterator giverIt = find(inputs.begin(), inputs.end(), inputs.at(position));
+        int indexOfGiver = distance(inputs.begin(), giverIt);
+
     }
 
     outputFile << "NOTSETYET" << endl;
