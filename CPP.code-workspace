@@ -76,7 +76,9 @@
 			"bit": "cpp",
 			"*.tcc": "cpp",
 			"memory_resource": "cpp",
-			"cinttypes": "cpp"
+			"cinttypes": "cpp",
+			"__tree": "cpp",
+			"map": "cpp"
 		},
 		"cquery.cacheDirectory": "${workspaceFolder}/.vscode/cquery_cached_index/"
 	}
