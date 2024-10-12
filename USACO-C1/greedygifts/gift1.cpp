@@ -1,6 +1,6 @@
 /*
 ID: ayushn.2
-TASK: test
+TASK: gift1
 LANG: C++                 
 */
 
@@ -8,7 +8,7 @@ LANG: C++
 #include <fstream>
 #include <vector>
 #include <sstream>
-#include <stdio.h>
+#inclu∂de <string>
 
 using namespace std;
 
@@ -81,16 +81,35 @@ int main()
         int moneyToDivide = splitRaw.at(0) / splitRaw.at(1);
         int moneyToReturn = splitRaw.at(0) % splitRaw.at(1); // Calculating money to give and return
 
-        vector<string>::iterator giverIt = find(namesAtIndex.begin(), namesAtIndex.end(), inputs.at(position));
-        int indexOfGiver = distance(namesAtIndex.begin(), giverIt);
+        // vector<string>::iterator giverIt = find(namesAtIndex.begin(), namesAtIndex.end(), inputs.at(position));
+        // int indexOfGiver = distance(namesAtIndex.begin(), giverIt);
+
+        int indexOfGiver;
+        for (int i = 0; i < namesAtIndex.size(); i++) {
+            if (namesAtIndex.at(i) == inputs.at(position)) {
+                indexOfGiver = i;
+                break;
+            }
+        }
 
         people[indexOfGiver] -= splitRaw.at(0);
         people[indexOfGiver] += moneyToReturn;
         position += 2; //now on first person!
         for (int i = 0; i < splitRaw.at(1); i++)
         {
-            vector<string>::iterator receiverIt = find(namesAtIndex.begin(), namesAtIndex.end(), inputs.at(position));
-            int indexOfReceiver = distance(namesAtIndex.begin(), receiverIt);
+            // vector<string>::iterator receiverIt = find(namesAtIndex.begin(), namesAtIndex.end(), inputs.at(position)); // this seems not to work for some reason on the USACO compiler, maybe a C++11 thing?? idk doing a for int loop works for now!
+            // int indexOfReceiver = distance(namesAtIndex.begin(), receiverIt);
+
+            int indexOfReceiver;
+
+            for (int i = 0; i < namesAtIndex.size(); i++) {
+                if (namesAtIndex.at(i) == inputs.at(position)) {
+                    indexOfReceiver = i;
+                    break;
+                }
+                
+            }
+
             people[indexOfReceiver] += moneyToDivide;
             position += 1;
         }

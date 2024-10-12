@@ -17,7 +17,7 @@ int main()
     string line1, line2;
     inputFile >> line1 >> line2;
 
-    outputFile << "NOTSETYET" << endl;
+    outputFile << "NotSetYet" << endl;
     return 0;
     
 }
