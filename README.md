@@ -1,3 +1,3 @@
 # cppfund
-for USACO and C++ Stuff that Im Doing
 
+for USACO and C++ Stuff that Im Doing
