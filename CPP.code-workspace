@@ -78,7 +78,10 @@
 			"memory_resource": "cpp",
 			"cinttypes": "cpp",
 			"__tree": "cpp",
-			"map": "cpp"
+			"map": "cpp",
+			"codecvt": "cpp",
+			"iomanip": "cpp",
+			"stack": "cpp"
 		},
 		"cquery.cacheDirectory": "${workspaceFolder}/.vscode/cquery_cached_index/"
 	}
