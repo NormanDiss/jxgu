@@ -1,6 +1,6 @@
 # cppfund
 
-For my USACO Stuf.
+For my USACO Stuff.
 
 ## Chapter 1
 
