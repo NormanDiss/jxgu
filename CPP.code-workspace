@@ -81,7 +81,8 @@
 			"map": "cpp",
 			"codecvt": "cpp",
 			"iomanip": "cpp",
-			"stack": "cpp"
+			"stack": "cpp",
+			"regex": "cpp"
 		},
 		"cquery.cacheDirectory": "${workspaceFolder}/.vscode/cquery_cached_index/"
 	}
