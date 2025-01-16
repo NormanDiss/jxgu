@@ -1,6 +1,6 @@
 /*
 ID: ayushn.2
-TASK: test
+TASK: XXXXXXXXX
 LANG: C++                 
 */
 
@@ -12,12 +12,12 @@ using namespace std;
 
 int main()
 {
-    ofstream outputFile ("filename.out");
-    ifstream inputFile ("filename.in");
-    string line1, line2;
-    inputFile >> line1 >> line2;
+    ofstream fout ("X.out");
+    ifstream fin ("X.in");
+    string N;
+    fin >> N;
 
-    outputFile << "NotSetYet" << endl;
+    fout << "NotSetYet" << endl;
     return 0;
     
 }
