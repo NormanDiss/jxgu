@@ -17,7 +17,7 @@ int main()
 {
     ofstream outputFile ("skidesign.out");
     ifstream inputFile ("skidesign.in");
-    int N, min, max, cost, currentMinimum = ;
+    int N, min, max, cost, currentMinimum = 9999999;
     inputFile >> N;
     int skislope[N];
     for(int i = 0; i < N; i++) {
@@ -49,7 +49,6 @@ int main()
             currentMinimum = cost;
         }
     }
-    
 
 
     outputFile << cost << endl;
