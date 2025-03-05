@@ -1,4 +1,4 @@
-# (cppfund)[https://www.youtube.com/watch?v=dQw4w9WgXcQ]
+# [cppfund](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 For my USACO Stuff.
 
