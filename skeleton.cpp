@@ -1,10 +1,8 @@
 /*
 ID: ayushn.2
 TASK: XXXXXXXXX
-LANG: C++                 
+LANG: C++11
 */
-
-
 #include <iostream>
 #include <fstream>
 
@@ -14,7 +12,7 @@ int main()
 {
     ofstream fout ("X.out");
     ifstream fin ("X.in");
-    string N;
+    int N;
     fin >> N;
 
     fout << "NotSetYet" << endl;
