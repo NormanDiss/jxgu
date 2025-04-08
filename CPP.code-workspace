@@ -82,7 +82,13 @@
 			"codecvt": "cpp",
 			"iomanip": "cpp",
 			"stack": "cpp",
-			"regex": "cpp"
+			"regex": "cpp",
+			"filesystem": "cpp",
+			"forward_list": "cpp",
+			"list": "cpp",
+			"set": "cpp",
+			"unordered_set": "cpp",
+			"valarray": "cpp"
 		},
 		"cquery.cacheDirectory": "${workspaceFolder}/.vscode/cquery_cached_index/"
 	}
