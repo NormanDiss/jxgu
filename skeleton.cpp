@@ -5,8 +5,7 @@ LANG: C++11
 */
 #include <iostream>
 #include <fstream>
-#define INT_MAX 2147483647
-#define INT_MIN -2147483647
+
 
 using namespace std;
 
