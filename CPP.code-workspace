@@ -90,6 +90,25 @@
 			"unordered_set": "cpp",
 			"valarray": "cpp"
 		},
-		"cquery.cacheDirectory": "${workspaceFolder}/.vscode/cquery_cached_index/"
+		"cquery.cacheDirectory": "${workspaceFolder}/.vscode/cquery_cached_index/",
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#ff8166",
+			"activityBar.activeBorder": "#9fffb0",
+			"activityBar.background": "#ff8166",
+			"activityBar.foreground": "#15202b",
+			"activityBar.inactiveForeground": "#15202b99",
+			"activityBarBadge.background": "#9fffb0",
+			"activityBarBadge.foreground": "#15202b",
+			"statusBar.background": "#ff5733",
+			"statusBar.border": "#ff5733",
+			"statusBar.foreground": "#15202b",
+			"statusBarItem.hoverBackground": "#ff2d00",
+			"titleBar.activeBackground": "#ff5733",
+			"titleBar.activeForeground": "#15202b",
+			"titleBar.border": "#ff5733",
+			"titleBar.inactiveBackground": "#ff573399",
+			"titleBar.inactiveForeground": "#15202b99"
+		},
+		"peacock.color": "FF5733"
 	}
 }

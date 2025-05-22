@@ -70,6 +70,7 @@
         "bit": "cpp",
         "*.tcc": "cpp",
         "memory_resource": "cpp",
-        "cinttypes": "cpp"
+        "cinttypes": "cpp",
+        "peacock.affectTitleBar":false,
     }
 }
