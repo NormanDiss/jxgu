@@ -1,3 +1,4 @@
 .vscode/
 CPP.code-workspace
 *.code-workspace
+.DS_Store
