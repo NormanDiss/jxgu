@@ -14,9 +14,12 @@ For my USACO Stuff.
 * [x] 1.2 Submitting...
 * [x] 1.3 Complete Search
 * [x] 1.4 Greedy Crafting Solutions
-* [ ] 1.5 More Search Techniques
-* [ ] 1.6 Binary Numbers
+* [x] 1.5 More Search Techniques
+* [x] 1.6 Binary Numbers
 
 ## Chapter 2
 
-kinda slacking right now brb once im here.
+* [ ] 2.1 Intro *IN PROGRESS*
+* [ ] 1.2 Data Structures Dynamic Prog.
+* [ ] 2.3 All Tasks
+* [ ] 2.4 Shortest Paths
