@@ -10,8 +10,8 @@ using namespace std;
 
 int main()
 {
-    ofstream fout ("X.out");
-    ifstream fin ("X.in");
+    ofstream fout ("subset.out");
+    ifstream fin ("subset.in");
     int N;
     fin >> N;
 

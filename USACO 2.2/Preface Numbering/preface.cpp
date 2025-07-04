@@ -10,8 +10,8 @@ using namespace std;
 
 int main()
 {
-    ofstream fout ("X.out");
-    ifstream fin ("X.in");
+    ofstream fout ("preface.out");
+    ifstream fin ("preface.in");
     int N;
     fin >> N;
 
