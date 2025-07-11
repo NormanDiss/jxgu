@@ -1,6 +1,6 @@
 /*
 ID: ayushn.2
-TASK: XXXXXXXXX
+TASK: subset
 LANG: C++11
 */
 #include <iostream>
