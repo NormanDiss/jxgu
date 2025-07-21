@@ -14,7 +14,8 @@ int main()
     ifstream fin ("subset.in");
     int N;
     fin >> N;
-
+    int sum = (N * (N+1))/2;
+    cout << sum << endl;
     fout << "NotSetYet" << endl;
     return 0;
     
