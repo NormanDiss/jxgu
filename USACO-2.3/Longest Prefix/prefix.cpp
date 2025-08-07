@@ -125,7 +125,6 @@ int main()
         fin >> y;
         rawString += y;
     }
-    cout << "Imported Successfully!" << endl;
 
     fout << dfs(primitives, rawString) << endl;
     return 0;
