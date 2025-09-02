@@ -13,7 +13,7 @@ For my USACO Stuff.
 
 ## Chapter 2
 
-* [ ] 2.1 Intro *IN PROGRESS*
-* [ ] 1.2 Data Structures Dynamic Prog.
+* [x] 2.1
+* [x] 2.2 Data Structures Dynamic Prog.
 * [ ] 2.3 All Tasks
 * [ ] 2.4 Shortest Paths
