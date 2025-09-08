@@ -15,5 +15,5 @@ For my USACO Stuff.
 
 * [x] 2.1
 * [x] 2.2 Data Structures Dynamic Prog.
-* [ ] 2.3 All Tasks
+* [x] 2.3 All Tasks
 * [ ] 2.4 Shortest Paths
