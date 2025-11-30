@@ -21,13 +21,20 @@ struct wheel {
 };
 
 bool checkGap(vector<wheel> toCheck) {
+    bool chute = true;
     for(int i = 0; i < 360; i++) {
         for(int j = 0; j < 5; j++) {
+            bool specChute = true;
             for(int k = 0; k < toCheck[j].wedgeNum; k++) {
-                
+                if(i <= toCheck[j].wedges[k].start || i >= toCheck[j].wedges[k].end) {
+                    specChute = false;
+                }
             }
+            if(specChute == false)
+                chute = false;
         }
     }
+    return chute;
 }
 
 int main()
@@ -52,7 +59,7 @@ int main()
     while (true) {
         // First Check 
         if(checkGap(current)) {
-            cout << cnt << endl;
+            fout << cnt << endl;
             return 0;
         }
         // Then Update
@@ -88,14 +95,13 @@ int main()
                 break;
         }
         if(original == false) {
-            cout << "none" << endl;
+            fout << "none" << endl;
             cout << cnt << endl;
             return 0;
         }
 
     }
 
-    fout << "NotSetYet" << endl;
     return 0;
     
 }
