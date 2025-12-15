@@ -37,9 +37,8 @@ int main()
         outputList.push_back(tempNum[0]);
     }
 
-    cout << outputList[-1] << endl;
+    fout << outputList[-1] << endl;
 
-    fout << "NotSetYet" << endl;
     return 0;
     
 }

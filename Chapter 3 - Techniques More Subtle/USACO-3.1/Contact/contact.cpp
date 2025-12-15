@@ -56,7 +56,7 @@ int main()
 
     }
     
-    fout << "NotSetYet" << endl;
+    fout << strings[-1] << endl;
     return 0;
     
 }
