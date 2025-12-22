@@ -122,6 +122,9 @@
 		"peacock.color": "#42b883",
 		"search.exclude": {
 			".code-workspace": true
-		}
+		},
+		"cSpell.words": [
+			"msquare"
+		]
 	}
 }
