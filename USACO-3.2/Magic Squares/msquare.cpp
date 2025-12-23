@@ -73,14 +73,45 @@ int main()
     unsolved.push_back(starter);
     while(unsolved.size() > 0) {
         // bfs
-        
+        square a;
+        a.val = A(unsolved[0].val);
+        a.str = unsolved[0].str += "A";
+
+        if(a.val == N){
+            cout << a.str.size() << endl;
+            cout << a.str << endl;
+            return 0;
+        }
+
+
+        square b;
+        b.val = B(unsolved[0].val);
+        b.str = unsolved[0].str += "B";
+
+        if(b.val == N){
+            cout << b.str.size() << endl;
+            cout << b.str << endl;
+            return 0;
+        }
+
+        square c;
+        c.val = C(unsolved[0].val);
+        c.str = unsolved[0].str += "C";
+
+        if(c.val == N){
+            cout << c.str.size() << endl;
+            cout << c.str << endl;
+            return 0;
+        }
+
+        unsolved.erase(unsolved.begin());
+        unsolved.push_back(a);
+        unsolved.push_back(b);
+        unsolved.push_back(c);
+
 
     }
 
-    
-
-
-    cout << "YES BOIS" << endl;
     return 0;
     
 }
