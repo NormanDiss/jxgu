@@ -98,7 +98,11 @@
 			"scoped_allocator": "cpp",
 			"shared_mutex": "cpp",
 			"typeindex": "cpp",
-			"variant": "cpp"
+			"variant": "cpp",
+			"compare": "cpp",
+			"concepts": "cpp",
+			"ranges": "cpp",
+			"stop_token": "cpp"
 		},
 		"cquery.cacheDirectory": "${workspaceFolder}/.vscode/cquery_cached_index/",
 		"workbench.colorCustomizations": {
@@ -121,6 +125,7 @@
 			".code-workspace": true
 		},
 		"cSpell.words": [
+			"blist",
 			"msquare"
 		],
 		"peacock.color": "#ff4500"
