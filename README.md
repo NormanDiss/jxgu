@@ -16,4 +16,8 @@ For my USACO Stuff.
 * [x] 2.1
 * [x] 2.2 Data Structures Dynamic Prog.
 * [x] 2.3 All Tasks
-* [ ] 2.4 Shortest Paths
+* [x] 2.4 Shortest Paths
+
+## Chapter 3
+
+[x] 3.1
