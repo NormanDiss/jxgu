@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// LOL
+
 int main() {
     ifstream fin("word.in");
     ofstream fout("word.out");
@@ -17,8 +19,8 @@ int main() {
     
     int current = 0;
     for(int i = 0; i < N; i++) {
-        // Check if empty
-        if(current == 0) {
+       // Check if empty
+       if(current == 0) {
             fout << words[i];
             current += words[i].size();
             continue;
