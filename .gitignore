@@ -33,7 +33,7 @@
 *.out
 *.app
 
-# -- VSCode
+# -- VSCode --
 
 .vscode/*
 !.vscode/settings.json
@@ -147,6 +147,3 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
-#
-.DS_Store
