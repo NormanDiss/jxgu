@@ -71,6 +71,7 @@
         "*.tcc": "cpp",
         "memory_resource": "cpp",
         "cinttypes": "cpp",
-        "peacock.affectTitleBar":false,
+        "peacock.affectTitleBar": false,
+        "typeindex": "cpp"
     }
 }
